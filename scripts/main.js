@@ -15,14 +15,14 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.innerHTML  = 'РџСЂРёРІРµС‚, С‡С‚Рѕ Р·Р°С€С‘Р», РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ ' + myName;
+  myHeading.innerHTML  = 'Привет, что зашёл, пользователь ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML  = 'РџСЂРёРІРµС‚, С‡С‚Рѕ Р·Р°С€С‘Р», РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ ' + storedName;
+  myHeading.innerHTML  = 'Привет, что зашёл, пользователь' + storedName;
 }
 
 myButton.onclick = function() {
