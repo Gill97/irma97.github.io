@@ -1,0 +1,29 @@
+html {
+     font-size: 18px; /* размер шрифта 18ый */
+     font-family: Oswald; /* шрифт был выбрал на Goolge Fonts */
+     background-color: #E7B027;
+}
+
+h1 {
+  font-size: 40px; /* размер заголовка текста 40ой */
+  text-align: center; /* расположен по центру */
+  line-height: 1;
+  letter-spacing: 5px;
+  margin: 0;
+  color: #DF311A;
+  text-shadow: 3px 3px 1px black;
+  padding: 20px 0;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #65DF1A;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
